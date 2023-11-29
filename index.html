@@ -72,16 +72,46 @@
 
 		<!-- ABOUT SECTION -->
 
+		<!-- МОДАЛЬНОЕ ОКНО 1-->
+		<div id="modal1" class="modal">
+			<div class="modal-content">
+				<h4>Our story</h4>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat architecto tempora perferendis voluptate porro quibusdam fugit sint maiores delectus corporis inventore, error, velit
+					labore blanditiis sed repellendus laudantium quisquam. Doloremque a illum beatae vitae impedit optio dolore animi nesciunt magnam tempore. Voluptatum temporibus nemo voluptatem id
+					accusantium porro, rerum distinctio voluptates consequatur quaerat ab doloremque dolorum nulla asperiores iusto eligendi magnam minima illum quae odit veniam animi numquam dicta
+					necessitatibus! Accusamus beatae ullam inventore temporibus quos libero quidem aspernatur quod repellendus dolores voluptas, a consequatur soluta nobis voluptates nemo voluptatibus
+					laboriosam exercitationem explicabo expedita in alias. Nobis aliquid veniam eaque.
+				</p>
+			</div>
+		</div>
+
 		<section class="about" id="about">
 			<div class="container">
 				<div class="about__inner">
 					<p class="about__text">We are in business for over 6 years providing amazing services to client and people love them to the core. View our story to know more.</p>
-					<button class="about__btn">Our story</button>
+					<button href="#modal1" class="about__btn modal-trigger">Our story</button>
 				</div>
 			</div>
 		</section>
 
 		<!-- PRICE SECTION -->
+
+		<!-- МОДАЛЬНОЕ ОКНО 2-->
+		<div id="modal2" class="modal">
+			<div class="modal-content">
+				<h4>Try</h4>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et, obcaecati.</p>
+			</div>
+		</div>
+
+		<!-- МОДАЛЬНОЕ ОКНО 3-->
+		<div id="modal3" class="modal">
+			<div class="modal-content">
+				<h4>Sign up</h4>
+				<p>Lorem ipsum dolor sit amet.</p>
+			</div>
+		</div>
 
 		<section class="prices" id="gallery">
 			<div class="container">
@@ -99,7 +129,7 @@
 									<li>--</li>
 									<li>--</li>
 								</ul>
-								<button class="prices__btn">Try</button>
+								<button href="#modal2" class="prices__btn modal-trigger">Try</button>
 							</div>
 						</div>
 
@@ -114,7 +144,7 @@
 									<li>Unlimited Data</li>
 									<li>--</li>
 								</ul>
-								<button id="button__2" class="prices__btn">Sing up</button>
+								<button href="#modal3" id="button__2" class="prices__btn modal-trigger">Sing up</button>
 							</div>
 						</div>
 
@@ -129,7 +159,7 @@
 									<li>Unlimited Data</li>
 									<li>Whatever You Need</li>
 								</ul>
-								<button class="prices__btn">Sing up</button>
+								<button href="#modal3" id="button__2" class="prices__btn modal-trigger">Sing up</button>
 							</div>
 						</div>
 					</div>
@@ -147,5 +177,8 @@
 				</div>
 			</div>
 		</footer>
+
+		<script type="text/javascript" src="js/materialize.min.js"></script>
+		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>
